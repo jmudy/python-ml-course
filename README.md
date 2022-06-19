@@ -3,11 +3,17 @@
 Instalación entorno virtual con Anaconda:
 
 ```bash
-conda create -n ml-python python=3.8
+conda create -n ml-python python=3.7
 ```
 
 ```bash
 pip install -r requirements.txt
+```
+
+Instalar rpy2 desde Anaconda
+
+```bash
+conda install -c r rpy2 
 ```
 
 o bien:
