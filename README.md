@@ -18,9 +18,11 @@ conda env create -f ml-python.yml
 
 Al importar `ggplot` salta un error que se ha solucionado siguiendo los pasos del siguiente [link](https://github.com/yhat/ggpy/issues/662#issuecomment-484138308).
 
-Hay que hacer varios cambios en ficheros internos de la librería:
+Hay que hacer varios cambios en ficheros internos de la librería.
 
-`ggplot/utils.py`
+`ggplot/utils.py`:
+
+Cambiar
 
 ```bash
 date_types = (
@@ -46,8 +48,8 @@ date_types = (
 )
 ```
 
-`ggplot/stats/smoothers.py`
+`ggplot/stats/smoothers.py`:
 
-hacer lo mismo y además comentar:
+Hacer lo mismo y además comentar:
 
 `from pandas.lib import Timestamp`
