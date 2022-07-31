@@ -10,6 +10,7 @@ tensorflow==1.13.1
 protobuf==3.20.1
 scikit_image==0.19.3
 statsmodels==0.13.2
+jupyter-dash==0.4.2
 plotly==5.9.0
 rpy2==3.4.2
 ggplot==0.11.5

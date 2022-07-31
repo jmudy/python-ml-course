@@ -1,5 +1,7 @@
 # [Curso completo de Machine Learning: Data Science en Python](https://cursos.frogamesformacion.com/courses/machine-learning-python/)
 
+Curso realizado en `JupyterLab 3.3.2`.
+
 Instalación entorno virtual con Anaconda:
 
 ```bash
