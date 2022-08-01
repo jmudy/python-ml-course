@@ -2,6 +2,8 @@
 
 Curso realizado en `JupyterLab 3.3.2`.
 
+Para utilizar la librería `rpy2` es necesario instalar previamente `R`. La versión que se ha utilizado en este curso es `R 4.2.1 Patched`, misma versión que se utilizó en el curso de [Machine Learning: Data Science con RStudio](https://github.com/jmudy/r-course/tree/curso) y que se puede descargar en el siguiente [link](https://cran.r-project.org/bin/windows/base/R-4.2.1patched-win.exe).
+
 Instalación entorno virtual con Anaconda:
 
 ```bash
