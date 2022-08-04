@@ -20,6 +20,12 @@ o bien:
 conda env create -f ml-python.yml
 ```
 
+Instalar librería `graphviz` desde Anaconda para que no encuentre problemas en el `PATH` a la hora de dibujar (se ha utilizado la versión 0.20.1):
+
+```bash
+conda install python-graphviz
+```
+
 Al importar `ggplot` salta un error que se ha solucionado siguiendo los pasos del siguiente [link](https://github.com/yhat/ggpy/issues/662#issuecomment-484138308).
 
 Hay que hacer varios cambios en ficheros internos de la librería.
