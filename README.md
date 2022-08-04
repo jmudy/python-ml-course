@@ -20,7 +20,7 @@ o bien:
 conda env create -f ml-python.yml
 ```
 
-Instalar librería `graphviz` desde Anaconda para que no encuentre problemas en el `PATH` a la hora de dibujar (se ha utilizado la versión 0.20.1):
+Instalar librería `graphviz` desde Anaconda para que no encuentre problemas en el `PATH` a la hora de dibujar (se ha utilizado la versión 0.16):
 
 ```bash
 conda install python-graphviz
