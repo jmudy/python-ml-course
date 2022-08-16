@@ -1,21 +1,25 @@
 digraph Tree {
 node [shape=box, fontname="helvetica"] ;
 edge [fontname="helvetica"] ;
-0 [label="Petal.Length <= 2.45\nentropy = 1.584\nsamples = 111\nvalue = [39, 37, 35]"] ;
-1 [label="entropy = 0.0\nsamples = 39\nvalue = [39, 0, 0]"] ;
+0 [label="Petal.Length <= 2.6\nentropy = 1.585\nsamples = 119\nvalue = [41, 39, 39]"] ;
+1 [label="entropy = 0.0\nsamples = 41\nvalue = [41, 0, 0]"] ;
 0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
-2 [label="Petal.Width <= 1.65\nentropy = 0.999\nsamples = 72\nvalue = [0, 37, 35]"] ;
+2 [label="Petal.Width <= 1.75\nentropy = 1.0\nsamples = 78\nvalue = [0, 39, 39]"] ;
 0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
-3 [label="Petal.Length <= 4.95\nentropy = 0.297\nsamples = 38\nvalue = [0, 36, 2]"] ;
+3 [label="Petal.Length <= 4.95\nentropy = 0.454\nsamples = 42\nvalue = [0, 38, 4]"] ;
 2 -> 3 ;
-4 [label="entropy = 0.0\nsamples = 35\nvalue = [0, 35, 0]"] ;
+4 [label="Petal.Width <= 1.65\nentropy = 0.179\nsamples = 37\nvalue = [0, 36, 1]"] ;
 3 -> 4 ;
-5 [label="entropy = 0.918\nsamples = 3\nvalue = [0, 1, 2]"] ;
-3 -> 5 ;
-6 [label="Petal.Length <= 4.85\nentropy = 0.191\nsamples = 34\nvalue = [0, 1, 33]"] ;
-2 -> 6 ;
-7 [label="entropy = 0.811\nsamples = 4\nvalue = [0, 1, 3]"] ;
-6 -> 7 ;
-8 [label="entropy = 0.0\nsamples = 30\nvalue = [0, 0, 30]"] ;
-6 -> 8 ;
+5 [label="entropy = 0.0\nsamples = 36\nvalue = [0, 36, 0]"] ;
+4 -> 5 ;
+6 [label="entropy = 0.0\nsamples = 1\nvalue = [0, 0, 1]"] ;
+4 -> 6 ;
+7 [label="entropy = 0.971\nsamples = 5\nvalue = [0, 2, 3]"] ;
+3 -> 7 ;
+8 [label="Petal.Length <= 4.85\nentropy = 0.183\nsamples = 36\nvalue = [0, 1, 35]"] ;
+2 -> 8 ;
+9 [label="entropy = 0.918\nsamples = 3\nvalue = [0, 1, 2]"] ;
+8 -> 9 ;
+10 [label="entropy = 0.0\nsamples = 33\nvalue = [0, 0, 33]"] ;
+8 -> 10 ;
 }
